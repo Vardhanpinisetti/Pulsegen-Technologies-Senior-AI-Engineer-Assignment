@@ -1,0 +1,28 @@
+AI Agent Design – Swiggy/Zomato Review Trend Analysis
+
+Overview:
+This project implements an AI-powered agent that analyzes customer reviews from food delivery platforms such as Swiggy or Zomato. The agent identifies recurring complaint or request topics and tracks how these topics trend over time.
+
+Architecture:
+1. Review Ingestion:
+   Reviews are provided with associated dates and grouped by day.
+
+2. AI Topic Extraction:
+   An AI agent processes reviews per day and groups them into semantic topics such as delivery issues, food quality issues, app issues, and feature requests.
+   - Uses OpenAI when available
+   - Includes a deterministic fallback for reliability
+
+3. Trend Aggregation:
+   Extracted topics are counted per date and aggregated into a structured trend table.
+
+4. Output:
+   The final trend data is exported as a CSV file for analytics or dashboard usage.
+
+Key Design Decisions:
+- Modular agent design for easy replacement or upgrade of AI models
+- Fallback logic to ensure zero downtime if API quota is exceeded
+- CSV output to integrate easily with BI tools or spreadsheets
+
+Deliverables:
+- topic_trend_table.csv (baseline rule-based trends)
+- ai_topic_trend_table.csv (AI-powered trends)
