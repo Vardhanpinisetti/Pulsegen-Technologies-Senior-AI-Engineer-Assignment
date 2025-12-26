@@ -19,7 +19,9 @@ Step 2:
 - It will open in Notepad
 
 Step 3:  COPY & PASTE in step1.txt Notepad and Press Ctrl + S
+
 ---
+
 APP CHOSEN:
 Swiggy
 WHAT IS T:
@@ -33,6 +35,7 @@ It shows how many reviews talked about one problem on one day.
 WHY SIMILAR SENTENCES SHOULD BE COMBINED:
 Different sentences can mean the same problem.
 If not combined, the result will be wrong.
+
 ---
 
 Step 4: 
@@ -43,6 +46,7 @@ Step 4:
 Step 5: cmd opens
 
 Step 6: Now type exactly this and press Enter: python --version
+
 ---
 <img width="595" height="242" alt="image" src="https://github.com/user-attachments/assets/200081af-a30c-442a-a7c2-16f3160e0f3f" />
 ---
@@ -50,6 +54,7 @@ Step 6: Now type exactly this and press Enter: python --version
 Step 7: python -m venv venv and then press Enter.(It may take 5–10 seconds)
 
 Step 8:  venv\Scripts\activate
+
 ---
 <img width="666" height="311" alt="image" src="https://github.com/user-attachments/assets/61739f08-9d49-4a67-9fc1-3848d9bdb8a4" />
 ---
@@ -64,6 +69,7 @@ Step 11: Creating folder for raw review data:
 - mkdir src
 
 Step 12: Now run this command in cmd: type nul > src\main.py
+
 ---
 <img width="843" height="293" alt="image" src="https://github.com/user-attachments/assets/c0ad8ed2-d2a7-456a-bc4a-455241d9d22b" />
 ---
@@ -77,6 +83,7 @@ Step 13:
 - Press Ctrl + S
 
  Step 14: In cmd: python src\main.py
+
 ---
 <img width="687" height="160" alt="image" src="https://github.com/user-attachments/assets/496d7c37-815c-48fc-b1f2-98af7dea93f3" />
 ---
@@ -100,6 +107,7 @@ Step 15:
 ---
 
 Step 16: src\main.py - Re write the Code in it: and Press Ctrl + S
+
 ---
 print("Swiggy Review AI Agent started")
 file_path = "data/reviews_sample.txt"
@@ -111,6 +119,7 @@ for review in reviews:
 ---
 
 Step 17: In cmd: python src\main.py
+
 ---
 <img width="733" height="391" alt="image" src="https://github.com/user-attachments/assets/e811a3e3-833f-456d-81e0-adb631b01836" />
 ---
