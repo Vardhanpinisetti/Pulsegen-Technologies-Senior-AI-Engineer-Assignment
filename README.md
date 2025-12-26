@@ -74,6 +74,7 @@ Step 12: Now run this command in cmd: type nul > src\main.py
 <img width="843" height="293" alt="image" src="https://github.com/user-attachments/assets/c0ad8ed2-d2a7-456a-bc4a-455241d9d22b" />
 ---
 
+
 Step 13: 
 - Go to File Explorer
 - Open the folder: Swiggy_Review_AI_Agent
@@ -87,6 +88,7 @@ Step 13:
 ---
 <img width="687" height="160" alt="image" src="https://github.com/user-attachments/assets/496d7c37-815c-48fc-b1f2-98af7dea93f3" />
 ---
+
 
 Step 15: 
 - Go to File Explorer
@@ -123,6 +125,7 @@ Step 17: In cmd: python src\main.py
 ---
 <img width="733" height="391" alt="image" src="https://github.com/user-attachments/assets/e811a3e3-833f-456d-81e0-adb631b01836" />
 ---
+
 
 Step 18: again, Open src\main.py Replace the Whole code again and Press Ctrl + S
 
