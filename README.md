@@ -2,12 +2,6 @@
 ### Senior AI Engineer Assignment ### 
 ### AI Agent: Swiggy / Zomato Review Trend Analysis ### 
 
-### Video Link ###
-
-```
-
-```
-
 
 ### Step By Step Process How to Excecute the Assignemnt ###
 Step 1: 
@@ -607,4 +601,9 @@ This approach reflects how modern AI systems are built in production: combining 
 
 This solution is directly applicable to **customer experience analytics**, **operations monitoring**, and **product feedback analysis** in real-world AI systems.
 
+### Video Explanation Google Drive Link ###
+
+```
+https://drive.google.com/drive/folders/1Nsu9AJGPOKrDeNzl0O-JXJrEv7e2RPtM?usp=sharing
+```
 
