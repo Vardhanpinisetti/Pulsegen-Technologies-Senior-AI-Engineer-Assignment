@@ -1,0 +1,17 @@
+APP CHOSEN:
+Swiggy
+
+WHAT IS T:
+T means the final day for which the report is created.
+Example: If today is June 30, then T = June 30.
+
+WHAT DOES T-30 TO T MEAN:
+It means reviews from 30 days before T until T.
+Example: June 1 to June 30.
+
+WHAT DOES ONE TABLE CELL MEAN:
+It shows how many reviews talked about one problem on one day.
+
+WHY SIMILAR SENTENCES SHOULD BE COMBINED:
+Different sentences can mean the same problem.
+If not combined, the result will be wrong.
