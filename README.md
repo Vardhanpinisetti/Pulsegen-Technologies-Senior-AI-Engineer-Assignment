@@ -20,7 +20,7 @@ Step 2:
 
 Step 3:  COPY & PASTE in step1.txt Notepad and Press Ctrl + S
 
----
+```
 
 APP CHOSEN:
 Swiggy
@@ -36,7 +36,7 @@ WHY SIMILAR SENTENCES SHOULD BE COMBINED:
 Different sentences can mean the same problem.
 If not combined, the result will be wrong.
 
----
+```
 
 Step 4: 
 - Press Windows key
@@ -97,18 +97,18 @@ Step 15:
 - Name it as: reviews_sample.txt
 - Double click on reviews_sample.txt and open it and paste the Below lines and Press Ctrl + S
 
----
+```
 2024-06-01 | Delivery was very late and food was cold
 2024-06-01 | Delivery partner was rude
 2024-06-02 | Food quality was bad and stale
 2024-06-02 | App map was not working properly
 2024-06-03 | Delivery person behaved badly
 2024-06-03 | Please bring back 10 minute delivery
----
+```
 
 Step 16: src\main.py - Re write the Code in it: and Press Ctrl + S
 
----
+```
 print("Swiggy Review AI Agent started")
 file_path = "data/reviews_sample.txt"
 with open(file_path, "r", encoding="utf-8") as file:
@@ -116,7 +116,7 @@ with open(file_path, "r", encoding="utf-8") as file:
 print("Reviews loaded:")
 for review in reviews:
     print(review.strip())
----
+```
 
 Step 17: In cmd: python src\main.py
 
@@ -126,7 +126,7 @@ Step 17: In cmd: python src\main.py
 
 Step 18: again, Open src\main.py Replace the Whole code again and Press Ctrl + S
 
----
+```
 print("Swiggy Review AI Agent started")
 file_path = "data/reviews_sample.txt"
 with open(file_path, "r", encoding="utf-8") as file:
@@ -139,6 +139,6 @@ for review in reviews:
         print("Date:", date)
     print("Review:", text)
     print("------")
----
+```
 
 Step 19: again, In cmd: python src\main.py
