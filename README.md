@@ -49,7 +49,7 @@ Step 6: Now type exactly this and press Enter: python --version
 
 ---
 <img width="595" height="242" alt="image" src="https://github.com/user-attachments/assets/200081af-a30c-442a-a7c2-16f3160e0f3f" />
----
+
 
 Step 7: python -m venv venv and then press Enter.(It may take 5–10 seconds)
 
@@ -57,7 +57,7 @@ Step 8:  venv\Scripts\activate
 
 ---
 <img width="666" height="311" alt="image" src="https://github.com/user-attachments/assets/61739f08-9d49-4a67-9fc1-3848d9bdb8a4" />
----
+
 
 Step 9: python -m pip install --upgrade pip 
 
@@ -72,7 +72,7 @@ Step 12: Now run this command in cmd: type nul > src\main.py
 
 ---
 <img width="843" height="293" alt="image" src="https://github.com/user-attachments/assets/c0ad8ed2-d2a7-456a-bc4a-455241d9d22b" />
----
+
 
 
 Step 13: 
@@ -87,7 +87,7 @@ Step 13:
 
 ---
 <img width="687" height="160" alt="image" src="https://github.com/user-attachments/assets/496d7c37-815c-48fc-b1f2-98af7dea93f3" />
----
+
 
 
 Step 15: 
@@ -124,7 +124,7 @@ Step 17: In cmd: python src\main.py
 
 ---
 <img width="733" height="391" alt="image" src="https://github.com/user-attachments/assets/e811a3e3-833f-456d-81e0-adb631b01836" />
----
+
 
 
 Step 18: again, Open src\main.py Replace the Whole code again and Press Ctrl + S
